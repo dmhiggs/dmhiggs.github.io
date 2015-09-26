@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script language = "Javascript">
-<--
+
+<p id="p1">Hello World!</p>
+
+<script>
+document.getElementById("p1").innerHTML = "New text!";
 movie = new Array
 movie[1]="one"
 movie[2]="two"
 movie[3]="three"
 var rand_no = Math.floor((3-1)*Math.random())+1;
-print(movie[rand_no];
--->
+document.getElementById("p1").innerHTML = (movie[rand_no];
 </script>
+
+<p>The paragraph above was changed by a script.</p>
+
 </body>
 </html>
