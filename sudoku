@@ -1,0 +1,14 @@
+<html>
+<body>
+<script language = "Javascript">
+<--
+movie = new Array
+movie[1]="one"
+movie[2]="two"
+movie[3]="three"
+var rand_no = Math.floor((3-1)*Math.random())+1;
+document.write(movie[rand_no]);
+-->
+</script>
+</body>
+</html>
